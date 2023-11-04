@@ -68,3 +68,45 @@
     * Optimize the applications for maximum performance
     * Ensure that their application follows the best security practices
     
+# N-Tier Architecture
+
+* There is a difference between layers and tiers
+* When all the different components of an application, the presentation component, the application's core component and the database component are present in different places of the an application's infrastructure, like on different servers but they still communicate to function correctly, then they are called tiers
+* Layers are virtual separations of different parts of an application. 
+* Tiers are also differnt parts of an application, but they are physically separated in the application infrastructure.
+* In modern application development there can be any number of tiers.
+* We are going to discuss:
+    * 3-Tier architecture
+    * 4-Tier architecture
+
+## 3-Tier Architecture
+
+* Is the most commonly used N-tier architecture.
+* If your application's core component and data component are hosted on two different servers, then they form the two tiers out of the 3-tier architecture. 
+* The third tier is the client machine(either web or mobile), where all the data is being presented.
+* Together, the client machine, the application server and the database server make up a 3-tier architecture. 
+* The three tiers are known as:
+    * Presentation Tier
+        * Also called thin clients. 
+        * They don't contain business logic and only communicate with the application and present the data
+    * Application Tier
+        * The tier which contains the application's core or business logic is the application tier
+    * Data Tier
+        * The tier that deals with data is the data tier.
+
+## 4-Tier Architecture
+ 
+* In a web-application with a 4-tier architecture, the 4th tier is known as the delivery tier.
+* This delivery tier deals with caching and delivering front-end assets to the client. E.g:
+    * __Content Delivery Networks(CDN):__ They have multiple servers all across the world and help deliver a web applications HTML, CSS, JavaScript code and images to a client from the nearest physically located server.
+* Since they delivery tier is physicaly separated from all the other tiers, its considered as a different tier.
+* This is just an example of a  4-tier web application.
+* They can be very different depending on the web applications purpose. 
+
+## Benefits of N-tier architecture:
+
+* Security
+* Scalabiity
+* Maintenance
+* Improvement
+* Thus application development process becomes more efficient using N-tier architecture.
