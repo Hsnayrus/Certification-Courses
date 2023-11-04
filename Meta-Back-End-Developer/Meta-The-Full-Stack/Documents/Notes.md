@@ -1,6 +1,8 @@
 <h1 style="font-size: 2.5em">Course Notes</h1>
 
-## What is 'Stack' in Full Stack Development?
+# What is Full Stack Development?
+
+## What is a Stack?
 
 * They are a set of applications or technologies you use to fix a problem or create a project with a certain development focus. 
 * Some Examples of stacks are:
