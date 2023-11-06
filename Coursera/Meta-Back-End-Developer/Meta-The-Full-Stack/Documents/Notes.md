@@ -159,3 +159,7 @@ This reading taught you about the very popular client-server architecture you ca
 # Additional Resources
 
 * [These](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Additional-Resources.md) resources can be helpful throughout the course.
+
+# HTML
+
+* [This document](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/HTML.md) can be used to learn more about HTML.
