@@ -1,4 +1,5 @@
-<h1 style="font-size:2.5em">Course Syllabus</h1>
+<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<h1 class="custom-header">Course Syllabus</h1>
 
 As you prepare for your role in back-end development, in this Full Stack course you will practice bringing together multiple skills to build a full-stack Django app. You’ll start by setting up an environment for a local practical project and you will then have the opportunity to build a new application using your full stack developer skills.
 

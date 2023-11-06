@@ -1,4 +1,5 @@
-<h1 style="font-size: 2.5em">HTML</h1>
+<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<h1 class="custom-header">HTML</h1>
 
 # Introduction
 

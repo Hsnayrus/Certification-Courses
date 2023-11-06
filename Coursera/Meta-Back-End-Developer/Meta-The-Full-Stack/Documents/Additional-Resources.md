@@ -1,4 +1,5 @@
-<h1 style="font-size:2.5em">Additional Resources</h1>
+<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<h1 class="custom-header">Additional Resources</h1>
 
 * [Python home page](https://www.python.org/)
 * [Django web framework](https://www.djangoproject.com/)
