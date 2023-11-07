@@ -1,10 +1,33 @@
 <link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
 <h1 class="custom-header">HTML</h1>
 
+<h1 class="toc-header">Table of Contents</h1>
+<ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li>
+    <a href="#basic-html-page-structure">Basic HTML page Structure</a>
+        <ul>
+            <li><a href="#header-header">Header Tag</a></li>
+            <li><a href="#main-content-main">Main Content</a>
+                <ul>
+                    <li><a href="#article-element-article">Article Tag</a></li>
+                    <li><a href="#section-element-section">Section Element</a></li>
+                </ul>
+            </li>
+            <li><a href="#footer-element-footer">Footer Tag</a></li>
+        </ul>
+    </li>
+    <li><a href="#best-practices">Best Practices for writing HTML Documents</a></li>
+</ul>
+
+
+
 # Introduction
 
 * HTML is a markup language that was introduced in 1990.
 * Its the most basic and fundamental language that helps build and display contents of a webpage.
+* A list of all HTML tags and their documentation can be found [here](https://www.w3schools.com/tags/default.asp).
+* Another HTML tag cheatsheet can be found [here](https://www.coursera.org/learn/the-full-stack/supplement/guED4/semantic-html-cheat-sheet).
 
 
 # Basic HTML Page Structure
@@ -20,7 +43,6 @@
 ```
 
 * Other tags such as `<main></main>, <footer></footer>` etc. can be used to describe a typical HTML page.
-* A list of all HTML tags and their documentation can be found [here](https://www.w3schools.com/tags/default.asp).
 * A normal website can look something like this:
 ```
 <!DOCTYPE html>
