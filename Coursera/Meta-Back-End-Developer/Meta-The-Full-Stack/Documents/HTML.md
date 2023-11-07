@@ -46,7 +46,10 @@
 
 * Usually contains thing such as company logos and navigation links. 
 * The main navigation section of a webpage can also be defined semantically, using `<nav>` tags.
-![alt text](/Coursera/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Resources/HTML/basicHTMLPage.png)
+
+| ![alt text](/Coursera/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Resources/HTML/basicHTMLPage.png) |
+|:--:|
+| *Webpage with `<header>`, `<main>` and `<footer` tags*| 
 * The `<nav>` element is used after the `<header>` element(which is used for logos).
 * An example for this:
 ```
