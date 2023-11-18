@@ -28,7 +28,18 @@
 * Its the most basic and fundamental language that helps build and display contents of a webpage.
 * A list of all HTML tags and their documentation can be found [here](https://www.w3schools.com/tags/default.asp).
 * Another HTML tag cheatsheet can be found [here](https://www.coursera.org/learn/the-full-stack/supplement/guED4/semantic-html-cheat-sheet).
+* An HTML Page is a basic structure which consists of different components such as tags and elements.
 
+## HTML:
+
+* Stands for Hypertext Markup Language
+    * Hypertext: Text which contains links to other elements.
+    * Markup: Refers to tags and elements used within a document.
+* Simply a text file with a specific structure. 
+* This structure consists of differnet components such as tags and elements.
+* Have the `.html` suffix.
+* Whenever you go to a website, the first page that often gets returned is called _index.html_.
+* If you want to learn how to tell the browser to show the webpage content, learn ___CSS___.
 
 # Basic HTML Page Structure
 
@@ -138,6 +149,41 @@
 
 * The footer element contains additional links or other content.
 * Its usually at the end of the document.
+
+
+
+# Tags and Elements:
+
+* Each HTML element, consists of an opening tag enclosed in angle brackets. 
+    * To create a paragraph, you type `<p>`.
+* Most elements are paired with a closing tag, which has a `/` after the left angle bracket.
+    * The closing tag for paragraphs would be, `</p`.
+* HTML tags usually have some content inside them. Example:
+    ```
+    <p>This is a paragraph</p>
+    ```
+    Would generate something like this:
+
+    <p>This is a paragraph</p>
+* HTML elements can also contain other elements.
+    ```
+    <p>This is a <i>paragraph</i></p>
+    ```
+    _index.html_:
+    <p>This is a <i>paragraph</i></p>
+
+    * `<i>` is the italics element.
+* Elements can also be self-closing, where the do not require the closing tag. 
+    ```
+    <p>This is a <br>paragraph</p>
+    ```
+    _index.html_:
+    <p>This is a <br>paragraph</p>
+    
+    * Another way to 'close' the self-closing tag is to type a `/` before the right-angled bracket. `<br/>`.
+* The rules and structure for elements and tags are known as the HTML specifiction. The HTML specification is managed by the world wide web consortium or __w3c__. 
+* Whenever the HTML specification changes, a new version of HTML is standardized.
+* The current version is HTML5.
 
 
 # Best Practices
