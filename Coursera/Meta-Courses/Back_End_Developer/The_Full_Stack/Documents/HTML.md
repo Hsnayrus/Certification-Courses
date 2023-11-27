@@ -186,6 +186,11 @@
 * The current version is HTML5.
 
 
+# Semantic Tags in Action
+
+* The little lemon restaurant has asked me to add a new blog page to their website. This blog page can be found [here](/Coursera/Meta-Courses/Back_End_Developer/The_Full_Stack/Projects/Little-Lemon-Restaurant/src/blog.html).
+
+
 # Best Practices
 
 * When writing HTML, it is good practices to semantically describe the content. This allows search engines and accessibility software to understand the contents of a page.
