@@ -21,10 +21,16 @@
     <li>
     <a href="#forms-and-validation">Forms and Validation</a>
     <ul>
-        <li><a href="#form-validation">Form Validation</a></li>
+        <li>
+        <a href="#form-validation">Form Validation</a>
+        </li>
     </ul>
+    <li>
+    <a href="#input-types">Input Types</a>
     </li>
-    <li><a href="#best-practices">Best Practices for writing HTML Documents</a></li>
+    <li>
+    <a href="#best-practices">Best Practices for writing HTML Documents</a>
+    </li>
 </ul>
 
 
@@ -237,6 +243,12 @@
 <!-- Color values -->
 <input type="color">
 ```
+
+
+# Input Types:
+
+* A cheatsheet for the input types can be found [here](https://www.coursera.org/learn/the-full-stack/supplement/FXL7l/input-types).
+* A file containing different examples of input types can be found [here](/Projects/Little-Lemon-Restaurant/examples/input-types.html).
 
 
 # Best Practices
