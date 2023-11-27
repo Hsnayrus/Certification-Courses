@@ -93,7 +93,7 @@
 * Usually contains thing such as company logos and navigation links. 
 * The main navigation section of a webpage can also be defined semantically, using `<nav>` tags.
 
-| ![alt text](/Coursera/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Resources/HTML/basicHTMLPage.png) |
+| ![alt text](./Resources/HTML/basicHTMLPage.png) |
 |:--:|
 | *Webpage with `<header>`, `<main>` and `<footer` tags*| 
 * The `<nav>` element is used after the `<header>` element(which is used for logos).
@@ -201,7 +201,7 @@
 
 # Semantic Tags in Action
 
-* The little lemon restaurant has asked me to add a new blog page to their website. This blog page can be found [here](/Coursera/Meta-Courses/Back_End_Developer/The_Full_Stack/Projects/Little-Lemon-Restaurant/src/blog.html).
+* The little lemon restaurant has asked me to add a new blog page to their website. This blog page can be found [here](../Projects/Little-Lemon-Restaurant/src/blog.html).
 
 # Forms and Validation
 
@@ -248,7 +248,7 @@
 # Input Types:
 
 * A cheatsheet for the input types can be found [here](https://www.coursera.org/learn/the-full-stack/supplement/FXL7l/input-types).
-* A file containing different examples of input types can be found [here](/Projects/Little-Lemon-Restaurant/examples/input-types.html).
+* A file containing different examples of input types can be found [here](../Projects/Little-Lemon-Restaurant/examples/input-types.html).
 
 
 # Best Practices
