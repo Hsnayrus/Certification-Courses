@@ -29,6 +29,13 @@
     <a href="#input-types">Input Types</a>
     </li>
     <li>
+    <a href="#form-submission">Form Submission</a>
+    <ul>
+        <li><a href="#using-get-for-form-submission">Using GET for form submission</a></li>
+        <li><a href="#using-post-for-form-submission">Using POST for form submission</a></li>
+    </ul>
+    </li>
+    <li>
     <a href="#best-practices">Best Practices for writing HTML Documents</a>
     </li>
 </ul>
@@ -250,6 +257,37 @@
 * A cheatsheet for the input types can be found [here](https://www.coursera.org/learn/the-full-stack/supplement/FXL7l/input-types).
 * A file containing different examples of input types can be found [here](../Projects/Little-Lemon-Restaurant/examples/input-types.html).
 
+
+# Form submission:
+
+* This section explains form submission to servers.
+* Forms send data as a part of the HTTP request to the server.
+* There are two ways a form can send data to a webserver:
+    * Using the `GET` method: 
+    * Using the `POST` method
+* The developer can specify which method to use with the <b>method</b> attribute of the form element.
+* Example Form: [here](../Projects/Little-Lemon-Restaurant/examples/form.html).
+
+## Using `GET` for form submission:
+
+* When the `GET` method is used for form submission, the data of the form is sent as a part of the URL.
+* This means that the user data is appended to the end of the URL in the browser navigation bar.
+* The server receives the `GET` request and extracts the data from the form URL.
+* While this is an easy way to submit data, it has 3 key problems:
+    * The length of a URL is limited to around 2000 characters depending on the browser being used. Some web servers allow longer length URLs but this inconsistency and character length limit can lead to loss of data.
+    * The length of a requested URL is also limited by servers. Popular web services software such as Apache, Nginx have a default limit of around 4096 characters.
+    * Security. Since the data is included in the URL, the url is stored in the web browser history and possibly the request logs on the webserver. If transmitting personal information such as credit card details, it poses major privacy and security risks.
+
+
+## Using `POST` for form submission:
+
+* When the form is submitted using the `POST` method, the form data is inserted into the content of the HTTP request.
+* When the submit button is pressed, it will send an HTTP `POST` request with the data contained in the body of the request.
+* The `POST` method is more secure than `GET`.
+* However, the data can still be read by a third party listening to the HTTP request.
+* To secure this completely, HTTPS is used to encrypt the data so that only the sender and receiver can understand the data. 
+* Once the webserver receives the request, it processes it  and sends back an HTTP response.
+* If the response was successful, the webserver will direct the browser to a new web page. If an error has occured, one can handle it in multiple ways.
 
 # Best Practices
 
