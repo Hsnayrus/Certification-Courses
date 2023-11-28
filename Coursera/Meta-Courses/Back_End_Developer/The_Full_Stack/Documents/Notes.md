@@ -140,7 +140,7 @@ And, when it comes to communication, you should follow standard communication pr
 
 A diagram that demonstrates the difference between a WebSocket and HTTP Connection
 
-![alt text](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Resources/Notes/socketVShttp.png)
+![alt text](./Resources/Notes/socketVShttp.png)
 
 ## Advantages 
 One of the most significant benefits of using client-server architecture is the separation of the different layers of your application. The database can be installed and managed in a totally separate layer, and the data stays synced in a centralized location. In this way it allows multiple clients to communicate and use that information at the same time.  
@@ -159,8 +159,8 @@ This reading taught you about the very popular client-server architecture you ca
 
 # Additional Resources
 
-* [These](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Additional-Resources.md) resources can be helpful throughout the course.
+* [These](./Additional-Resources.md) resources can be helpful throughout the course.
 
 # HTML
 
-* [This document](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/HTML.md) can be used to learn more about HTML.
+* [This document](./HTML.md) can be used to learn more about HTML.
