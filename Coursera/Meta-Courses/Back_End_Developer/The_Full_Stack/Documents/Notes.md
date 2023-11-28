@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/content.css">
 <h1 class="custom-header">Notes</h1>
 
 # What is Full Stack Development?

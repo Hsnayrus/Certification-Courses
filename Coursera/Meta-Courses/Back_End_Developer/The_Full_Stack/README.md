@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../../../SupportingFiles/content.css">
+<link rel="stylesheet" type="text/css" href="assets/css/content.css">
 <h1 class="custom-header">Meta: The Full Stack</h1>
 
 This is an online course which can be found [here](https://www.coursera.org/learn/the-full-stack).

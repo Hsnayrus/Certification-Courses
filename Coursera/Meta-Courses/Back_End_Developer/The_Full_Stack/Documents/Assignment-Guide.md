@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<link rel="stylesheet" type="text/css" href="../assets/css/content.css">
 <h1 class="custom-header">Assignment(s) Guide</h1>
 
 __Note:__ _This is a reference reading in support of the labs you will encounter throughout this course. It consists of helpful information you may require while working with different labs and you can use it as a point of reference._
