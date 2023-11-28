@@ -36,6 +36,12 @@
     </ul>
     </li>
     <li>
+    <a href="#submit">Submit</a>
+    <ul>
+        <li><a href="#action-and-method">Action and Method</a></li>
+    </ul>
+    </li>
+    <li>
     <a href="#best-practices">Best Practices for writing HTML Documents</a>
     </li>
 </ul>
@@ -288,6 +294,28 @@
 * To secure this completely, HTTPS is used to encrypt the data so that only the sender and receiver can understand the data. 
 * Once the webserver receives the request, it processes it  and sends back an HTTP response.
 * If the response was successful, the webserver will direct the browser to a new web page. If an error has occured, one can handle it in multiple ways.
+
+# Submit
+
+* You have recently learned about how forms are sent to web servers and the difference between `GET` and `POST`. In this section, you will build on this konwledge by learning about submit.
+
+## Action and Method
+
+* Form submissions are an essential part of the world wide web. Nearly every website uses forms, from buying items online to ordering food for delivery. When you click the login button on a website, it sends your username and password to a web server to log  you into your accoun.t
+* As you know by now, you add a form to your web page using the <b>`<form></form>`</b> tag.
+* But how the form is submitted is determined by two essential attributes: <b>action</b> and <b>method</b>.
+* The <b>action</b> attribute specifies to which web address the form must be sent. This address is the location of server-side code that will process the request.
+```
+<form action="/login">
+</form>
+```
+* It is important to note that <b>action</b> can be a full URL address such as <b>https://meta.com</b>, an absolute path such as <b>/login</b>, or a relative path such as <b>login</b>.
+* The abosolute path, which <i>starts with a forward slash</i>, will use the base address of the current website, such as <b>https://meta.com</b> and combine it with the absolute path. For example if <b>/login</b> is the absolute path, the form will be submitted to <b>https://meta.com/login</b>. If the address is <b>https://meta.com/company-info/</b> and <b>/login</b> is the absolute path, the submission address will still be <b>https://meta.com/login</b>.
+* Similarly, a realtive path will combine the current web address with a relative path. For example, if the web browser is currently on the web page <b>https://meta.com/company-info/</b>, and the relative path is set to <b>login</b>, the form will be submitted to <b>https://meta.com/company-info/login</b>.
+* The <b>method</b> attribute specifies which HTTP method is used to submit the form; <b>`GET`</b> or <b>`POST`</b>.
+    * Default submission method is <b>`GET`</b>, when <b>method</b> is not specified.
+* Forms aren't the only way to submit data to a web server.
+* One can also send direct HTTP requests to the web server with the data encapsulated in the request itself in the `JSON` format.
 
 # Best Practices
 
