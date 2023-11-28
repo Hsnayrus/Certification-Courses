@@ -164,3 +164,7 @@ This reading taught you about the very popular client-server architecture you ca
 # HTML
 
 * [This document](./HTML.md) can be used to learn more about HTML.
+
+# CSS
+
+* [This document](./CSS.md) contains a summary of all the course content about CSS.
