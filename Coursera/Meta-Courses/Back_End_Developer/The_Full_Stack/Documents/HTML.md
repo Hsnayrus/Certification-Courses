@@ -42,6 +42,9 @@
     </ul>
     </li>
     <li>
+    <a href="additional-resources">Additional Resources</a>
+    </li>
+    <li>
     <a href="#best-practices">Best Practices for writing HTML Documents</a>
     </li>
 </ul>
@@ -273,6 +276,7 @@
     * Using the `POST` method
 * The developer can specify which method to use with the <b>method</b> attribute of the form element.
 * Example Form: [here](../Projects/Little-Lemon-Restaurant/examples/form.html).
+* If a submit button doesn't exist on the form, the form is submitted to the same url.
 
 ## Using `GET` for form submission:
 
@@ -316,6 +320,16 @@
     * Default submission method is <b>`GET`</b>, when <b>method</b> is not specified.
 * Forms aren't the only way to submit data to a web server.
 * One can also send direct HTTP requests to the web server with the data encapsulated in the request itself in the `JSON` format.
+
+# Additional Resources:
+
+* The following resources will be helpful as additional references in dealing with different concepts related to topics I have covered in the HTML section.
+    * [HTML Meta Tags](https://www.dofactory.com/html/metatags).
+    * [Semantic elements](https://www.freecodecamp.org/news/semantic-html5-elements/).
+    * [Client-side validation of forms with HTML5](https://www.sitepoint.com/client-side-form-validation-html5/).
+    * [\<input\> tag in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input).
+    * [Form validation examples](https://www.the-art-of-web.com/html/html5-form-validation/).
+
 
 # Best Practices
 
