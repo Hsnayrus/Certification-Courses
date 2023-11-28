@@ -8,15 +8,15 @@ This document contains relevant details about the course and also my own opinion
 
 ## Course Syllabus
 
-* You can find the course syllabus [here](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Course-Syllabus.md).
+* You can find the course syllabus [here](./Documents/Course-Syllabus.md).
 
 
 ## Assignment guide
 
-* [This document](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Assignment-Guide.md) contains all the information related to assignment submission and project setup.
+* [This document](./Documents/Assignment-Guide.md) contains all the information related to assignment submission and project setup.
 * The document can be used for setting up environments for the projects related to the course.
 
 
 ## Course Notes
 
-* All the notes I have taken can be found [here](/Meta-Back-End-Developer/Meta-The-Full-Stack/Documents/Notes.md)
+* All the notes I have taken can be found [here](./Documents/Notes.md)
