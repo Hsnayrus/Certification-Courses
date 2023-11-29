@@ -1,0 +1,23 @@
+/*
+This would turn all the elements with the `a` tag with the class attribute darkgreen in color
+*/
+a[class] {
+	color: darkgreen;
+}
+
+/*	
+Another example for attribute selectors where one can turn all elements with the `a` tag having the `href`
+attribute with a value that contains meta.
+*/
+a[href*="meta"] {
+	color: darkcyan;
+}
+
+/*
+Another way to use attribute selectors, where one can target a very specific
+element. Here, I am targetting the element with the `a` tag with an `href`
+attribute with the value "https://about.meta.com/"
+*/
+a[href="https://about.meta.com/"] {
+	color: darkorange
+}
