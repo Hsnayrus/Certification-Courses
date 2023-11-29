@@ -195,3 +195,58 @@ h1, p{
 }
 ```
 * This is also called selector stacking
+
+# Units of Measurement
+
+* A web page, as you know it, is two-dimensional.
+* That means it has width and height. Multiple other ways to express this are: x and y axes, length and breadth, vertical and horizontal, etc.
+* Another variable of a web page is its size, which can either be static or dynamic.
+* CSS units of measurement are used to account for the dynamism and dimensionality of a web page.
+* Units of measurement in CSS can be classified into two types, absolute and relative
+
+## Absolute Units
+
+* Are fixed across different devices and have a fixed size
+* Useful for activities like printing a page
+* Not so useful today for different devices since different devices have different viewport sizes
+* Thus, absolute units are used when the size of the web page is known and will remain constant
+
+
+| Unit | Name                | Comparison               |
+|:----:|:-------------------:|:------------------------:|
+|  Q   | Quarter-millimeters | 1Q = 1/40th of 1cm       |
+|  mm  | Millimeters         | 1mm = 1/10th of 1cm      |
+|  cm  | Centimeters         | 1cm = 37.8px = 25.2/64in |
+|  in  | Inches              | 1in = 2.54cm = 96px      |
+|  pc  | Picas               | 1pc = 1/6th of 1in       |
+|  pt  | Points              | 1pt = 1/72nd of 1in      |
+|  px  | Pixels              | 1px = 1/96th of 1in      |
+
+* Of these, the pixels and centimeters are most frequently used for defining properties
+
+## Relative Values
+
+* When you create a web page, you will almost never have only a single element present inside it.
+* Even in case of containers such as flexboxes and grids, there's ususally more than one element present that rules are applied to.
+* Relative values are defined 'in relation' to the other elements preent inside the parent element.
+* Additionally, they are defined 'in relation' to the viewport or the size of the visible web page.
+* Given the dynamic nature of web pages today and the variable size of devies in use, relative unites are the go-to option in many cases.
+* Below is a list of some of the important relative units
+
+| Unit     | Description and relativity |
+|:--------:|:--------------------------:|
+| __em__   | Font size of the parent while present |
+| __ex__   | x-co-ordinate or height of the font element | 
+| __ch__   | Width of the font character | 
+| __rem__  | Font size of the root element | 
+| __lh__   | Value computed for line height of a parent element | 
+| __rlh__  | Value computed for line height of root element which is `<html>`   | 
+| __vw__   | 1% of the viewport width | 
+| __vh__   | 1% of the viewport height | 
+| __vmin__ | 1% of the smaller dimension of viewport | 
+| __vmax__ | 1% of the larger dimension of viewport | 
+| __%__    | Denotes a percentage value in relation to it's parent element | 
+
+* Many of these units are used in terms of the relative size of fonts.
+* Some Units are more suitable depending on the relative context. Like when the dimensions of the viewport are important, it's more appropriate to use __vw__ and __vh__. In a broader context, the relative units you will see most frequently used are percentage, __em, vh, vw__ and __rem__.  
+* Much like the absolute and relative units discussed above, certain properties have their own set of acceptable values that need to be taken into account. For example, color-based properties such as backgroundcolor will have values such as hexadecimal, __rgb(), rgba(), hsl(), hsla()__ and so on. Each property should be explored on an individual basis and practicing with the code will help you to decide which of these units of measurement are the most suitable choice. 
