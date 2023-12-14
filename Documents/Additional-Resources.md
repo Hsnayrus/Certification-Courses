@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../../../../SupportingFiles/content.css">
+<link rel="stylesheet" type="text/css" href="../Assets/content.css">
 <h1 class="custom-header">Additional Resources</h1>
 
 * [Python home page](https://www.python.org/)
