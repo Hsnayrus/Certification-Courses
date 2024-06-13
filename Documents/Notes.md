@@ -7,8 +7,8 @@
 
 - They are a set of applications or technologies you use to fix a problem or create a project with a certain development focus.
 - Some Examples of stacks are:
-  - **Front-End Stack**: Comprises of languages such as HTML, CSS, JavaScript. They are used together the front-end or the user interface part of a web application.
-  - **Back-End Stack**: Comprises of languages such as python, frameworks such as Django and tools such as DRF.
+  - **Front-End Stack**: Comprises of languages such as _HTML, CSS, JavaScript_. They are used together the front-end or the user interface part of a web application. Modern front-end languages are: _Angular, React, Vue_.
+  - **Back-End Stack**: Comprises of languages such as _Python_, frameworks such as _Django, Spring, Node.js_ and tools such as _Django REST Framework(DRF)_.
   - **Data Stack**: A part of the back end stack, which consists of database management systems and database applications to process data.
 - There are various types of stacks which comprise of different technologies/tools such as the MERN stack, LAMP stack, LEMP stack, etc.
 
